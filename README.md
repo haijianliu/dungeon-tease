@@ -2,9 +2,7 @@
 
 I have been working on a personal rendering engine these days. Although there are lots needed to deal with and it is really just a beginning, finally here comes the first tease! :tada:
 
-<a href="https://www.youtube.com/embed/Hp1O_UeuIm8?loop=1&playlist=Hp1O_UeuIm8&modestbranding=1&autohide=1&showinfo=0&controls=0" target="blank">
-<img src="http://img.youtube.com/vi/Hp1O_UeuIm8/0.jpg"
-alt="dungeon tease" width="1280" height="720" border="10" /></a>
+<img src="https://github.com/HaijianLiu/circle-turbulence-glsl/blob/master/CircleTurbulenceA%402x.gif" width="600">
 
 ## Features
 
@@ -28,8 +26,6 @@ And some new features are one the way, such like `baked shadow and lighting` `LU
 ## Download
 - Source code available on GitHub (without assets).
 - Download this demo here. (Password required && OSX 10.12 or later && PS4 controller).
-
-{% include image.html path="2017-11-26-dungeon-demo/dungeon_screen@2x.png" path-detail="2017-11-26-dungeon-demo/dungeon_screen_full@2x.png" alt="dungeon tease" %}
 
 ## Frameworks
 
