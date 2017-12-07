@@ -2,7 +2,7 @@
 
 I have been working on a personal rendering engine these days. Although there are lots needed to deal with and it is really just a beginning, finally here comes the first tease! :tada:
 
-<img src="https://github.com/HaijianLiu/circle-turbulence-glsl/blob/master/CircleTurbulenceA%402x.gif" width="600">
+<img src="https://github.com/haijianliu/dungeon-tease/blob/master/Assets/Textures/dungeon_screen%402x.png" width="600">
 
 ## Features
 
