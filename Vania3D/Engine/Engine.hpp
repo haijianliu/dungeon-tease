@@ -52,25 +52,24 @@
 #include "stb_image.h"
 #include "stb_image_resize.h"
 
+
+/*------------------------------------------------------------------------------
+< Engine >
+------------------------------------------------------------------------------*/
 class GameObject;
 class Game;
 class SceneManager;
 class Camera;
 class Scene;
 
-
-/*------------------------------------------------------------------------------
-< Engine >
-------------------------------------------------------------------------------*/
 #include "Window.hpp"
 #include "Input.hpp"
 #include "Shader.hpp"
 #include "Texture.hpp"
 #include "Skybox.hpp"
 #include "Quad.hpp"
-#include "QuadInstance2vec3.hpp"
+//#include "QuadInstance2vec3.hpp"
 #include "Time.hpp"
-
 #include "Node.hpp"
 #include "Mesh.hpp"
 #include "Bone.hpp"
@@ -78,14 +77,9 @@ class Scene;
 #include "Animation.hpp"
 #include "Model.hpp"
 #include "Material.hpp"
-
-#include "Level.hpp"
 #include "Map.hpp"
-
 #include "Sphere.hpp"
-
 #include "LightProbe.hpp"
-
 #include "Component.hpp"
 #include "Transform.hpp"
 #include "MeshRenderer.hpp"
@@ -94,22 +88,14 @@ class Scene;
 #include "UVAnimation.hpp"
 #include "Particle.hpp"
 #include "Emitter.hpp"
-
 #include "Resources.hpp"
 #include "RenderLayer.hpp"
 #include "RenderPass.hpp"
 #include "ShadowMapping.hpp"
 #include "Camera.hpp"
 #include "FrustumCulling.hpp"
-
 #include "GameObject.hpp"
-
 #include "Game.hpp"
-
-
-/*------------------------------------------------------------------------------
-< Component >
-------------------------------------------------------------------------------*/
 #include "Offset.hpp"
 #include "PlayerController.hpp"
 #include "CameraController.hpp"

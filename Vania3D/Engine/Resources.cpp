@@ -24,7 +24,6 @@ Resources::~Resources() {
 	deleteMap(this->lightProbes);
 	deleteMap(this->materials);
 	delete this->quad;
-	delete this->quadinstance2vec3;
 	delete this->skybox;
 }
 
@@ -36,7 +35,6 @@ void Resources::start() {
 	/* Meshes
 	..............................................................................*/
 	this->quad = new Quad();
-	this->quadinstance2vec3 = new QuadInstance2vec3();
 	this->skybox = new Skybox();
 
 	/* Shader

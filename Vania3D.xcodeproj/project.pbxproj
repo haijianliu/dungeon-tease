@@ -18,7 +18,6 @@
 		600E63B71F99F19000F6A34A /* Transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 600E63B31F99F18F00F6A34A /* Transform.cpp */; };
 		600E63B81F99F19000F6A34A /* MeshRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 600E63B41F99F19000F6A34A /* MeshRenderer.cpp */; };
 		60132DFD1FA38D5900E71962 /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60132DFB1FA38D5900E71962 /* Time.cpp */; };
-		60159E211FB067DE00EDC9CA /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60159E1F1FB067DE00EDC9CA /* Level.cpp */; };
 		6024342D1F88D89200DA6CA4 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 602434281F88D89200DA6CA4 /* Engine.cpp */; };
 		6024342E1F88D89200DA6CA4 /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6024342C1F88D89200DA6CA4 /* Window.cpp */; };
 		602434311F88DA2300DA6CA4 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6024342F1F88DA2300DA6CA4 /* Shader.cpp */; };
@@ -53,7 +52,6 @@
 		60CD446E1FC5261600ADF152 /* Emitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60CD446C1FC5261600ADF152 /* Emitter.cpp */; };
 		60CD44741FC5592200ADF152 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60CD44721FC5592200ADF152 /* Particle.cpp */; };
 		60CD44781FC6A11600ADF152 /* FxTorchFire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60CD44761FC6A11600ADF152 /* FxTorchFire.cpp */; };
-		60CD447B1FC6EDF300ADF152 /* QuadInstance2vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60CD44791FC6EDF300ADF152 /* QuadInstance2vec3.cpp */; };
 		60E579F81FA0B34700690EC1 /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E579F61FA0B34700690EC1 /* Animation.cpp */; };
 		60E579FB1FA0BB9B00690EC1 /* Keyframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E579F91FA0BB9B00690EC1 /* Keyframe.cpp */; };
 		60E579FE1FA0C35100690EC1 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E579FC1FA0C35100690EC1 /* Node.cpp */; };
@@ -100,8 +98,6 @@
 		600E63B61F99F19000F6A34A /* Transform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Transform.hpp; sourceTree = "<group>"; };
 		60132DFB1FA38D5900E71962 /* Time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Time.cpp; sourceTree = "<group>"; };
 		60132DFC1FA38D5900E71962 /* Time.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Time.hpp; sourceTree = "<group>"; };
-		60159E1F1FB067DE00EDC9CA /* Level.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
-		60159E201FB067DE00EDC9CA /* Level.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Level.hpp; sourceTree = "<group>"; };
 		602434281F88D89200DA6CA4 /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Engine.cpp; sourceTree = "<group>"; };
 		602434291F88D89200DA6CA4 /* Window.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Window.hpp; sourceTree = "<group>"; };
 		6024342B1F88D89200DA6CA4 /* Engine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Engine.hpp; sourceTree = "<group>"; };
@@ -167,8 +163,6 @@
 		60CD44731FC5592200ADF152 /* Particle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Particle.hpp; sourceTree = "<group>"; };
 		60CD44761FC6A11600ADF152 /* FxTorchFire.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FxTorchFire.cpp; sourceTree = "<group>"; };
 		60CD44771FC6A11600ADF152 /* FxTorchFire.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FxTorchFire.hpp; sourceTree = "<group>"; };
-		60CD44791FC6EDF300ADF152 /* QuadInstance2vec3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuadInstance2vec3.cpp; sourceTree = "<group>"; };
-		60CD447A1FC6EDF300ADF152 /* QuadInstance2vec3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QuadInstance2vec3.hpp; sourceTree = "<group>"; };
 		60E579F61FA0B34700690EC1 /* Animation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
 		60E579F71FA0B34700690EC1 /* Animation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animation.hpp; sourceTree = "<group>"; };
 		60E579F91FA0BB9B00690EC1 /* Keyframe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Keyframe.cpp; sourceTree = "<group>"; };
@@ -301,8 +295,6 @@
 				60E579FA1FA0BB9B00690EC1 /* Keyframe.hpp */,
 				60E579F61FA0B34700690EC1 /* Animation.cpp */,
 				60E579F71FA0B34700690EC1 /* Animation.hpp */,
-				60159E1F1FB067DE00EDC9CA /* Level.cpp */,
-				60159E201FB067DE00EDC9CA /* Level.hpp */,
 				600B9A531FB8333900B1F0D5 /* Map.cpp */,
 				600B9A541FB8333900B1F0D5 /* Map.hpp */,
 			);
@@ -349,8 +341,6 @@
 				604B579B1F973F94009DE302 /* Skybox.hpp */,
 				604B579D1F973FBC009DE302 /* Quad.cpp */,
 				604B579E1F973FBC009DE302 /* Quad.hpp */,
-				60CD44791FC6EDF300ADF152 /* QuadInstance2vec3.cpp */,
-				60CD447A1FC6EDF300ADF152 /* QuadInstance2vec3.hpp */,
 				6082F4B31FAB073000B177DA /* Sphere.cpp */,
 				6082F4B41FAB073000B177DA /* Sphere.hpp */,
 			);
@@ -511,10 +501,8 @@
 				60132DFD1FA38D5900E71962 /* Time.cpp in Sources */,
 				6024342D1F88D89200DA6CA4 /* Engine.cpp in Sources */,
 				604B578E1F95F61A009DE302 /* SceneManager.cpp in Sources */,
-				60CD447B1FC6EDF300ADF152 /* QuadInstance2vec3.cpp in Sources */,
 				60CD446E1FC5261600ADF152 /* Emitter.cpp in Sources */,
 				604B57881F94928A009DE302 /* Texture.cpp in Sources */,
-				60159E211FB067DE00EDC9CA /* Level.cpp in Sources */,
 				60CD446B1FC41E4B00ADF152 /* UVAnimation.cpp in Sources */,
 				604B57951F95FAD0009DE302 /* GameObject.cpp in Sources */,
 				600B9A6E1FBADB3C00B1F0D5 /* RenderLayer.cpp in Sources */,
