@@ -21,17 +21,11 @@ Features currently supported:
 - `third person controller` player-camera controller just like all the third person game, supporting PS4 controller.
 - `import blender file` blender is an awesome software. All the stages were edited in blender.
 
-And some new features are one the way, such like `baked shadow and lighting` `LUT filter` `bloom and blur`.
-
-## Download
-- Source code available on GitHub (without assets).
-- Download this demo here. (Password required && OSX 10.12 or later && PS4 controller).
-
 ## Frameworks
 
 - `OpenGL ES 3.2 & GLM` Core graphic api and core math library.
 
-- `Assimp` Although I have wrote some model loader program by myself, Assimp is more professional library and can handle more complex situations. [Open Asset Import Library (short name: Assimp)](http://assimp.sourceforge.net) is a portable Open Source library to import various well-known 3D model formats in a uniform manner.
+- `Assimp` [Open Asset Import Library (short name: Assimp)](http://assimp.sourceforge.net) is a portable Open Source library to import various well-known 3D model formats in a uniform manner.
 
 - `stb` Public domain C image loading library by [nothings](http://nothings.org).
 
