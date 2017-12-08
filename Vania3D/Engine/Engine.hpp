@@ -6,14 +6,8 @@
 ------------------------------------------------------------------------------*/
 #define GLOBAL_SCALE (0.01)
 #define UNIT_TO_PIXEL (100)
-#define SCREEN_WIDTH (960)
-#define SCREEN_HEIGHT (540)
-// #define SCREEN_WIDTH (800)
-// #define SCREEN_HEIGHT (450)
-// #define SCREEN_WIDTH (672)
-// #define SCREEN_HEIGHT (378)
-// #define SCREEN_WIDTH (640)
-// #define SCREEN_HEIGHT (360)
+#define SCREEN_WIDTH (1280)
+#define SCREEN_HEIGHT (720)
 #define NUM_BONES_PER_VEREX (4)
 #define MAX_MESH_INSTANCE (50)
 
@@ -132,11 +126,7 @@ class Scene;
 ------------------------------------------------------------------------------*/
 #include "Scene.hpp"
 #include "Scene00.hpp"
-#include "Scene01.hpp"
-#include "Scene02.hpp"
 #include "Scene03.hpp"
-#include "Scene04.hpp"
-#include "Scene05.hpp"
 #include "SceneManager.hpp"
 
 

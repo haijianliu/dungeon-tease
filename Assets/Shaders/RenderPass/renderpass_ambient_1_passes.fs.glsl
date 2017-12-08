@@ -52,8 +52,8 @@ void main() {
 	vec2 brdf = texture(brdfLUT, vec2(max(dot(n, v), 0.0), roughness)).rg;
 	vec3 specular = prefilteredColor * (specularF * brdf.x + brdf.y);
 	// ambient
-	// vec3 ambient = diffuseF * diffuse + specularF * diffuse * specular;
-	vec3 ambient = specularF * diffuse * specular;
+	vec3 ambient = 0.5 * diffuseF * diffuse + specularF * diffuse * specular;
+	// vec3 ambient = specularF * diffuse * specular;
 
 	// fog
 	float fog = (80 - length(position - cameraPosition)) / 60;

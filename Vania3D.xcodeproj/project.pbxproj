@@ -15,7 +15,6 @@
 		600B9A551FB8333900B1F0D5 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 600B9A531FB8333900B1F0D5 /* Map.cpp */; };
 		600B9A6E1FBADB3C00B1F0D5 /* RenderLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 600B9A6C1FBADB3C00B1F0D5 /* RenderLayer.cpp */; };
 		600B9A711FBC25F000B1F0D5 /* FrustumCulling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 600B9A6F1FBC25F000B1F0D5 /* FrustumCulling.cpp */; };
-		600B9A7D1FC1566800B1F0D5 /* Scene02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 600B9A7B1FC1566800B1F0D5 /* Scene02.cpp */; };
 		600E63B71F99F19000F6A34A /* Transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 600E63B31F99F18F00F6A34A /* Transform.cpp */; };
 		600E63B81F99F19000F6A34A /* MeshRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 600E63B41F99F19000F6A34A /* MeshRenderer.cpp */; };
 		60132DFD1FA38D5900E71962 /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60132DFB1FA38D5900E71962 /* Time.cpp */; };
@@ -46,13 +45,10 @@
 		604B57AC1F99C148009DE302 /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 604B57AA1F99C148009DE302 /* Material.cpp */; };
 		6057408E1FADBBFC005B7358 /* PlayerController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6057408C1FADBBFC005B7358 /* PlayerController.cpp */; };
 		605740911FADF9C4005B7358 /* PointLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6057408F1FADF9C4005B7358 /* PointLight.cpp */; };
-		606101E61FB0034900558589 /* Scene01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 606101E41FB0034900558589 /* Scene01.cpp */; };
-		606838381FD17360003D8173 /* Scene05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 606838361FD17360003D8173 /* Scene05.cpp */; };
 		6082F4AF1FA737C000B177DA /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6082F4AE1FA737BF00B177DA /* Input.cpp */; };
 		6082F4B21FA9A11200B177DA /* CameraController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6082F4B01FA9A11200B177DA /* CameraController.cpp */; };
 		6082F4B51FAB073000B177DA /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6082F4B31FAB073000B177DA /* Sphere.cpp */; };
 		609F90701F9EFF2400238D61 /* Bone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 609F906E1F9EFF2400238D61 /* Bone.cpp */; };
-		60C894E31FCD8CA400CA8C35 /* Scene04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C894E11FCD8CA400CA8C35 /* Scene04.cpp */; };
 		60CD446B1FC41E4B00ADF152 /* UVAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60CD44691FC41E4B00ADF152 /* UVAnimation.cpp */; };
 		60CD446E1FC5261600ADF152 /* Emitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60CD446C1FC5261600ADF152 /* Emitter.cpp */; };
 		60CD44741FC5592200ADF152 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60CD44721FC5592200ADF152 /* Particle.cpp */; };
@@ -89,8 +85,6 @@
 		60070A261F88C64C00AE4BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60070A271F88C64C00AE4BEB /* Cocoa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cocoa.entitlements; sourceTree = "<group>"; };
 		60070A2F1F88C71100AE4BEB /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
-		60070A311F88C83000AE4BEB /* libfmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmod.dylib; path = Frameworks/FMOD/lib/libfmod.dylib; sourceTree = "<group>"; };
-		60070A321F88C83000AE4BEB /* libfmodL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodL.dylib; path = Frameworks/FMOD/lib/libfmodL.dylib; sourceTree = "<group>"; };
 		60070A351F88C83400AE4BEB /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = Frameworks/glew/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
 		60070A371F88C83B00AE4BEB /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = Frameworks/glfw/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
 		60070A3E1F88C86700AE4BEB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -100,8 +94,6 @@
 		600B9A6D1FBADB3C00B1F0D5 /* RenderLayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RenderLayer.hpp; sourceTree = "<group>"; };
 		600B9A6F1FBC25F000B1F0D5 /* FrustumCulling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FrustumCulling.cpp; sourceTree = "<group>"; };
 		600B9A701FBC25F000B1F0D5 /* FrustumCulling.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FrustumCulling.hpp; sourceTree = "<group>"; };
-		600B9A7B1FC1566800B1F0D5 /* Scene02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Scene02.cpp; sourceTree = "<group>"; };
-		600B9A7C1FC1566800B1F0D5 /* Scene02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Scene02.hpp; sourceTree = "<group>"; };
 		600E63B31F99F18F00F6A34A /* Transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transform.cpp; sourceTree = "<group>"; };
 		600E63B41F99F19000F6A34A /* MeshRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshRenderer.cpp; sourceTree = "<group>"; };
 		600E63B51F99F19000F6A34A /* MeshRenderer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MeshRenderer.hpp; sourceTree = "<group>"; };
@@ -157,10 +149,6 @@
 		6057408D1FADBBFC005B7358 /* PlayerController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PlayerController.hpp; sourceTree = "<group>"; };
 		6057408F1FADF9C4005B7358 /* PointLight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointLight.cpp; sourceTree = "<group>"; };
 		605740901FADF9C4005B7358 /* PointLight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PointLight.hpp; sourceTree = "<group>"; };
-		606101E41FB0034900558589 /* Scene01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Scene01.cpp; sourceTree = "<group>"; };
-		606101E51FB0034900558589 /* Scene01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Scene01.hpp; sourceTree = "<group>"; };
-		606838361FD17360003D8173 /* Scene05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Scene05.cpp; sourceTree = "<group>"; };
-		606838371FD17360003D8173 /* Scene05.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Scene05.hpp; sourceTree = "<group>"; };
 		6082F4AD1FA737BF00B177DA /* Input.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Input.hpp; sourceTree = "<group>"; };
 		6082F4AE1FA737BF00B177DA /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
 		6082F4B01FA9A11200B177DA /* CameraController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CameraController.cpp; sourceTree = "<group>"; };
@@ -171,8 +159,6 @@
 		60967CD01FB217D000297515 /* UnityScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnityScene.cpp; sourceTree = "<group>"; };
 		609F906E1F9EFF2400238D61 /* Bone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bone.cpp; sourceTree = "<group>"; };
 		609F906F1F9EFF2400238D61 /* Bone.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bone.hpp; sourceTree = "<group>"; };
-		60C894E11FCD8CA400CA8C35 /* Scene04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Scene04.cpp; sourceTree = "<group>"; };
-		60C894E21FCD8CA400CA8C35 /* Scene04.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Scene04.hpp; sourceTree = "<group>"; };
 		60CD44691FC41E4B00ADF152 /* UVAnimation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UVAnimation.cpp; sourceTree = "<group>"; };
 		60CD446A1FC41E4B00ADF152 /* UVAnimation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UVAnimation.hpp; sourceTree = "<group>"; };
 		60CD446C1FC5261600ADF152 /* Emitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Emitter.cpp; sourceTree = "<group>"; };
@@ -261,8 +247,6 @@
 				60070A3E1F88C86700AE4BEB /* OpenGL.framework */,
 				60070A371F88C83B00AE4BEB /* libglfw.3.2.dylib */,
 				60070A351F88C83400AE4BEB /* libGLEW.2.0.0.dylib */,
-				60070A311F88C83000AE4BEB /* libfmod.dylib */,
-				60070A321F88C83000AE4BEB /* libfmodL.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -380,16 +364,8 @@
 				604B57A21F9890AF009DE302 /* Scene.hpp */,
 				604B57A41F98A251009DE302 /* Scene00.cpp */,
 				604B57A51F98A251009DE302 /* Scene00.hpp */,
-				606101E41FB0034900558589 /* Scene01.cpp */,
-				606101E51FB0034900558589 /* Scene01.hpp */,
-				600B9A7B1FC1566800B1F0D5 /* Scene02.cpp */,
-				600B9A7C1FC1566800B1F0D5 /* Scene02.hpp */,
 				60EEC5791FCA5D8E0068B59D /* Scene03.cpp */,
 				60EEC57A1FCA5D8E0068B59D /* Scene03.hpp */,
-				60C894E11FCD8CA400CA8C35 /* Scene04.cpp */,
-				60C894E21FCD8CA400CA8C35 /* Scene04.hpp */,
-				606838361FD17360003D8173 /* Scene05.cpp */,
-				606838371FD17360003D8173 /* Scene05.hpp */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -507,14 +483,12 @@
 				60E579FB1FA0BB9B00690EC1 /* Keyframe.cpp in Sources */,
 				60FA8C771FB5615200E31651 /* ShadowMapping.cpp in Sources */,
 				6082F4B21FA9A11200B177DA /* CameraController.cpp in Sources */,
-				606838381FD17360003D8173 /* Scene05.cpp in Sources */,
 				6082F4AF1FA737C000B177DA /* Input.cpp in Sources */,
 				604B57821F945A84009DE302 /* Model.cpp in Sources */,
 				604B57A61F98A251009DE302 /* Scene00.cpp in Sources */,
 				602434371F88DCBC00DA6CA4 /* RenderPass.cpp in Sources */,
 				609F90701F9EFF2400238D61 /* Bone.cpp in Sources */,
 				6057408E1FADBBFC005B7358 /* PlayerController.cpp in Sources */,
-				60C894E31FCD8CA400CA8C35 /* Scene04.cpp in Sources */,
 				600E63B81F99F19000F6A34A /* MeshRenderer.cpp in Sources */,
 				604B57AC1F99C148009DE302 /* Material.cpp in Sources */,
 				60070A301F88C82A00AE4BEB /* main.cpp in Sources */,
@@ -522,8 +496,6 @@
 				6024343A1F88E70B00DA6CA4 /* Camera.cpp in Sources */,
 				60315E691FC31A13005D6AE0 /* Billboard.cpp in Sources */,
 				602C98A41FAED44000B69E45 /* Offset.cpp in Sources */,
-				606101E61FB0034900558589 /* Scene01.cpp in Sources */,
-				600B9A7D1FC1566800B1F0D5 /* Scene02.cpp in Sources */,
 				60CD44781FC6A11600ADF152 /* FxTorchFire.cpp in Sources */,
 				604B57851F945A92009DE302 /* Mesh.cpp in Sources */,
 				6024343D1F88E79A00DA6CA4 /* Game.cpp in Sources */,
@@ -678,7 +650,6 @@
 				DEVELOPMENT_TEAM = 4M5A36G82A;
 				HEADER_SEARCH_PATHS = (
 					./Frameworks/glfw/inc,
-					./Frameworks/FMOD/inc,
 					./Frameworks/glew/inc,
 					./Frameworks/glm/inc,
 					./Frameworks/assimp/inc,
@@ -688,7 +659,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks/FMOD/lib",
 					"$(PROJECT_DIR)/Frameworks/glew/lib",
 					"$(PROJECT_DIR)/Frameworks/glfw/lib",
 					"$(PROJECT_DIR)/Frameworks/assimp/lib",
@@ -716,7 +686,6 @@
 				DEVELOPMENT_TEAM = 4M5A36G82A;
 				HEADER_SEARCH_PATHS = (
 					./Frameworks/glfw/inc,
-					./Frameworks/FMOD/inc,
 					./Frameworks/glew/inc,
 					./Frameworks/glm/inc,
 					./Frameworks/assimp/inc,
@@ -726,7 +695,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks/FMOD/lib",
 					"$(PROJECT_DIR)/Frameworks/glew/lib",
 					"$(PROJECT_DIR)/Frameworks/glfw/lib",
 					"$(PROJECT_DIR)/Frameworks/assimp/lib",

@@ -90,12 +90,7 @@ void Resources::start() {
 
 	/* LightProbe
 	..............................................................................*/
-	// this->loadLightProbe("hdr", "./Assets/Textures/HDR/WinterForest_Ref.hdr");
-	// this->loadLightProbe("hdr", "./Assets/Textures/HDR/Road_to_MonumentValley_8k.jpg");
-	// this->loadLightProbe("hdr", "./Assets/Textures/HDR/Stadium_Center_8k.jpg");
-	this->loadLightProbe("hdr", "./Assets/Models/InfinityBladeGrassLands/Maps/LevelContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDR");
-	// this->loadLightProbe("hdr", "./Assets/Textures/HDR/test.jpg");
-
+	this->loadLightProbe("hdr", "./Assets/Textures/HDR/HDRI_Epic_Courtyard_Daylight.HDR");
 }
 
 

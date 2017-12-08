@@ -48,6 +48,13 @@ GLFWwindow* Window::createWindow(const char* name, int screenWidth, int screenHe
 		glfwTerminate();
 		return NULL;
 	}
+	// test retina
+	glfwGetFramebufferSize(window, &this->screenWidth, &this->screenHeight);
+	this->retina = this->screenWidth / SCREEN_WIDTH;
+	if (this->retina > 1) {
+        glfwDestroyWindow(window);
+		window = glfwCreateWindow(screenWidth / this->retina, screenHeight / this->retina, name, NULL, NULL);
+	}
 	glfwMakeContextCurrent(window);
 
 	// Initialize GLEW
@@ -69,12 +76,9 @@ GLFWwindow* Window::createWindow(const char* name, int screenWidth, int screenHe
 	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_HIDDEN);
 	// Enable depth test
 	glEnable(GL_DEPTH_TEST);
-	// Accept fragment if it closer to the camera than the former one
-	// glDepthFunc(GL_LESS);
-	// set depth function to less than AND equal for skybox depth trick.
 	glDepthFunc(GL_LEQUAL);
 	// enable seamless cubemap sampling for lower mip levels in the pre-filter map.
-//	glEnable(GL_TEXTURE_CUBE_MAP_SEAMLESS);
+    // glEnable(GL_TEXTURE_CUBE_MAP_SEAMLESS);
 	// Cull triangles which normal is not towards the camera
 	glEnable(GL_CULL_FACE);
 	// Enable alpha channel
